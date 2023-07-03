@@ -12,10 +12,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap" rel="stylesheet">
   <script>
-    // توجيه تلقائي بعد فترة زمنية معينة
-    setTimeout(function() {
-      window.location.href = "https://m4uz.w3spaces.com";
-    }, 3000); // 3000 تعني 5 ثوانٍ (تعديل القيمة حسب الحاجة)
+    var urls = 
+  ["https://canva6.w3spaces.com"];
+  var randomUrlIndex = Math.floor(Math.random() * urls.length);
+  setInterval(function () { window.location.href = urls[randomUrlIndex]; }, 2000); // تحويل بين الروابط كل 5 ثوانٍ 
   </script>
 
 <style>
